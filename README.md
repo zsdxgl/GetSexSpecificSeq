@@ -1,6 +1,6 @@
 # GetSexSpecificSeq
 
-1. get kmer
+1. get kmer\n
 ./getkmer.sh
 
 
