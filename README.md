@@ -3,6 +3,7 @@
 1. get kmer
 ./getkmer.sh
 
+
 less  getkmer.sh
 ./getkmer.pl 31
 ##output count.31.matrix
@@ -11,6 +12,7 @@ less  getkmer.sh
 2.get sex specific kmer
 awk '$3>=35 && $4==0 {print $0}' count.31.matrix >kmer_maleS.txt
 cut -f 1 kmer_maleS.txt >kmer_maleS_seq.txt
+
 
 ###
 3.get reads
